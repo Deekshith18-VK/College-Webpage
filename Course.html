@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACU University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html" class="logo"><span style="color: darkseagreen;">ACU</span>University</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+    <!-- course -->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>We offer various courses in bachelors and masters degree.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>To be totally student-centric, thus promoting the overall growth and development of intellect and
+                    personality of our prime stakeholders, namely students, so that our alumni are worthy citizens and
+                    highly sought-after professionals worldwide.</p>
+            </div>
+            <div class="course-col">
+                <h3>Under Graduated</h3>
+                <p>To impart quality professional education, to conduct commendable research and to provide credible
+                    consultancy and extension services as per current and emerging socio-economic needs.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>A pace-setting university of Academic Excellence focused on education, research and development in
+                    established and emerging professions.</p>
+            </div>
+        </div>
+    </section>
+    <!-- -------facilities--------- -->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p> Extra-curriculars, co-curricular and athletic opportunities in addition to academics.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="img/swimming.jpg">
+                <h3>Swimming Pool</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad soluta sed neque expedita sequi iste?</p>
+            </div>
+            <div class="facilities-col">
+                <img src="img/library.jpg">
+                <h3>Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad soluta sed neque expedita sequi iste?</p>
+            </div>
+            <div class="facilities-col">
+                <img src="img/basketball.jpg">
+                <h3>Basketball Court</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad soluta sed neque expedita sequi iste?</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- --------footer--------- -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We envision ourselves as a pace-setting university of Academic Excellence focused on education, research and
+            <br>
+            development in established and emerging professions.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </div>
+        <p>Project Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by Deekshith And Team</p>
+    </section>
+    <!-- JavaScript for Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
